@@ -1,0 +1,48 @@
+*
+{
+  margin: 0;
+}
+
+body
+{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* title */
+
+.title
+{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  font-size: 2rem;
+}
+
+/* mise en page */
+
+.first, .second, .third
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+}
+
+.first .info,.first .formation,.second .competences,
+.second .experience,.second .CV,.third .interest
+{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: space-around;
+}
+
+label
+{
+  display: flex;
+  justify-content: center;
+}
